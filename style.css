@@ -1,0 +1,86 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2px;
+  background-color:#f7cac9;
+  text-align: center;
+
+}
+
+h1 { /* quiz title */
+  text-align:center;
+  color: white;
+  font-family: "Georgia", Times, serif;
+  background-color:#92a8d1;
+  margin:0px;
+  padding:15px;
+
+  border-radius: 20px;
+}
+
+h1:hover {
+  background-color: #034f84;
+}
+h2 { /* questions text  */
+  margin-top: 2em;
+  color: white;
+  background-color:#f7786b;
+  text-align:center;
+  border-radius: 20px;
+  padding:10px;
+  font-family: "Georgia", Times, serif;
+}
+
+h3 { /* result text */
+ text-align:center;
+  color: white;
+  font-family: "Georgia", Times, serif;
+  background-color:#92a8d1;
+  padding:10px;
+
+}
+
+.question {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+}
+
+#result-img{
+  border-style: none;
+}
+
+img {
+  height: 10em;
+  padding:0px;
+  margin:5px;
+  border-style: solid;
+  border-width: 2px;
+
+
+}
+img:hover {
+  border-style: none;
+}
+question:hover{
+  border-color: white;
+}
+
+button:hover{
+  background-color: #f7786b;
+
+}
+button{
+  padding:15px;
+  border:0px;
+  border-radius: 75%;
+  margin:30px;
+  margin-bottom:0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+button:focus  {
+  color: #f7786b;
+}
