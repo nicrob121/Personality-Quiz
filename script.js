@@ -37,23 +37,6 @@ var q4a2 = document.getElementById("q4a2");
 var q4a3 = document.getElementById("q4a3");
 var q4a4 = document.getElementById("q4a4");
 
-// //question 5
-// var q5a1 = document.getElementById("q5a1");
-// var q5a2 = document.getElementById("q5a2");
-// var q5a3 = document.getElementById("q5a3");
-// var q5a4 = document.getElementById("q5a4");
-
-// //question 6
-// var q6a1 = document.getElementById("q6a1");
-// var q6a2 = document.getElementById("q6a2");
-// var q6a3 = document.getElementById("q6a3");
-// var q6a4 = document.getElementById("q6a4");
-
-// //question 7
-// var q7a1 = document.getElementById("q7a1");
-// var q7a2 = document.getElementById("q7a2");
-// var q7a3 = document.getElementById("q7a3");
-// var q7a4 = document.getElementById("q7a4");
 
 //#TODO: Add Event Listeners to your answer choice variables.
 
@@ -81,23 +64,7 @@ q4a2.addEventListener("click", result1);
 q4a3.addEventListener("click", result3);
 q4a4.addEventListener("click", result4);
 
-// //question 5 swap 3 & 4
-// q5a1.addEventListener("click", result1);
-// q5a2.addEventListener("click", result2);
-// q5a3.addEventListener("click", result4);
-// q5a4.addEventListener("click", result3);
 
-// //question 6 swap 1 & 3
-// q6a1.addEventListener("click", result3);
-// q6a2.addEventListener("click", result2);
-// q6a3.addEventListener("click", result1);
-// q6a4.addEventListener("click", result4);
-
-// //question 7 swap 2 & 4
-// q7a1.addEventListener("click", result1);
-// q7a2.addEventListener("click", result4);
-// q7a3.addEventListener("click", result3);
-// q7a4.addEventListener("click", result2);
 
 //#TODO: Define quiz functions here
 function result1() {
